@@ -32,12 +32,16 @@ Some comments are added to *.1337 so you can import *.1337 in [x64dbg](https://g
 Remember to **delete** these comments before you import *.1337 to x64dbg.
 
 ### [010Editor](https://www.sweetscape.com/010editor/)
+<img src="010Editor/screenshot.png" width = "80%" height = "350" alt="010Editor screenshot" align=center />
+
 * bypass license checking fully (local and online authentification)
 * label registration status with 'Cracked'   
 
--- Note that keygen isn't implemented, but it doesn't matter in fact. Any name combining password is accepted.
+-- Note that keygen isn't implemented, but it doesn't matter in fact. Any name-password combination is accepted.
 
 ### [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+<img src="procexp/screenshot.png" width = "80%" height = "350" alt="010Editor screenshot" align=center />
+
 * convert PID from decimal to hex (corresponding with ollydbg)   
 * modify IDT to load dll automatically
 
