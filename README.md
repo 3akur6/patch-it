@@ -28,17 +28,19 @@ Ensure that [bsdiff/bspatch](https://github.com/mendsley/bsdiff) is within your 
 $ bspatch 010Editor.exe 010Editor_patched.exe 010Editor.patch
 ```
 
-For people who want to learn cracking details:   
-Some comments are added to *.1337 so you can import *.1337 in [x64dbg](https://github.com/x64dbg/x64dbg) (File -> Patch file... -> Import) and do some analyses.   
-Remember to **delete** these comments before you import *.1337 to x64dbg.
-
 ### [010Editor](https://www.sweetscape.com/010editor/)
-version: 11.0.1 (64-bit)
+version: 12.0.1 (x86-64)
 
-<img src="010Editor/screenshot.png" width = "80%" height = "350" alt="010Editor screenshot" align=center />
+**Windows**
+
+<img src="010Editor/Windows/screenshot.png" width = "80%" height = "350" alt="010Editor screenshot" align=center />
+
+**macOS**
+
+<img src="010Editor/macOS/screenshot.png" width = "80%" height = "350" alt="010Editor screenshot" align=center />
 
 * bypass license checking fully (local and online authentification)
-* label registration status with 'Cracked'   
+* Windows and macOS platform supported
 
 -- Note that keygen isn't implemented, but it doesn't matter in fact. Any name-password combination is accepted.
 
@@ -55,7 +57,7 @@ version: 16.32
 Use [MS-Detours](https://github.com/microsoft/Detours) to implement dll hooking easier. For more technical details, you should check `pid2Hex.cpp`.
 
 ### [WinRAR](https://www.win-rar.com/start.html)
-version: 5.91 (64-bit)
+version: 5.91 (x86-64)
 
 <img src="WinRAR/screenshot.png" width = "80%" height = "350" alt="WinRAR screenshot" align=center />
 
